@@ -4,4 +4,4 @@ BiteNet is suitable for spatiotemporal detection of hard-to-spot binding sites i
 
 BiteNet is developed by Igor Kozlovskii and Petr Popov at CDISE, Skoltech.
 
-Please contact Petr Popov (p.popov@skoltech.ru) regarding BiteNet.
+Feel free to contact Petr Popov regarding BiteNet (https://faculty.skoltech.ru/people/petrpopov).
