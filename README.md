@@ -1,11 +1,13 @@
 # BiteNet
 
-Prediction fo binding sites in proteins using 3D convolutional neural networks
+BiteNet is suitable for spatiotemporal detection of hard-to-spot allosteric binding sites, as we showed for conformation-specific binding site of the epidermal growth factor receptor,  oligomer-specific binding site of the ion channel, and binding sites in G protein-coupled receptors.
+
+BiteNet is developed by Igor Kozlovskii and Petr Popov at CDISE, Skoltech.
 
 
 ## Installing
 
-Unfortunately, tensorflow==1.14 seems to be only version which is compatible with BiteNet (yet?). As some package version are incompatible with each other, it could be meaningful to make virtual environment first:
+BiteNet is compatible with tensorflow==1.14. As some package version are incompatible with each other, it could be meaningful to make virtual environment first:
 ```bash
 python3 -m virtualenv bitenet-env
 ```
