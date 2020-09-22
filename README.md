@@ -1,11 +1,20 @@
 # BiteNet
 
-Prediction fo binding sites in proteins using 3D convolutional neural networks
+Igor Kozlovskii and Petr Popov, "Spatiotemporal identification of druggable binding sites using deep learning", Communications Biology, accepted.
 
+Identification of novel protein binding sites expands «druggable genome» and opens new opportunities for drug discovery.
+
+Generally, presence or absence of a binding site depends on the three-dimensional conformation of a protein, making binding site identification resemble to object detection problem in computer vision. 
+
+Here we introduce a computational approach for the large-scale detection of protein binding sites, that considers protein conformations as 3D-images, binding sites as objects on these images to detect, and conformational ensembles of proteins as 3D-videos to analyze.
+
+BiteNet is suitable for spatiotemporal detection of hard-to-spot allosteric binding sites, as we showed for conformation-specific binding site of the epidermal growth factor receptor, oligomer-specific binding site of the ion channel, and binding site in G protein-coupled receptor.
+
+BiteNet outperforms state-of-the-art methods both in terms of accuracy and speed, taking about 1.5 minutes to analyze 1000 conformations of a protein with ~2000 atoms. 
 
 ## Installing
 
-Unfortunately, tensorflow==1.14 seems to be only version which is compatible with BiteNet (yet?). As some package version are incompatible with each other, it could be meaningful to make virtual environment first:
+BiteNet v1.0 works with tensorflow==1.14, so we advise to make virtual environment first:
 ```bash
 python3 -m virtualenv bitenet-env
 ```
@@ -18,15 +27,9 @@ or
 python3 -m pip install tensorflow==1.14
 ```
 
-You can install BiteNet using pip as well
-from local
-```bash
-git clone https://gitlab.com/pp_lab/bitenet
-python3 -m pip install ./
+You can install BiteNet directly from git
 ```
-or directly from git
-```
-python3 -m pip install https://gitlab.com/pp_lab/bitenet.git
+python3 -m pip install https://github.com/i-Molecule/bitenet.git
 ```
 
 ## Usage 
