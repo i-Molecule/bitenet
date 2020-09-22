@@ -1,6 +1,13 @@
 # BiteNet
 
+The default copyright laws apply. To request commercial or academical license please contact : p.popov@skoltech.ru.
+
+If you use or refer to BiteNet please cite: 
 Igor Kozlovskii and Petr Popov, "Spatiotemporal identification of druggable binding sites using deep learning", Communications Biology, accepted.
+
+If you use training set or our source code, please also cite: 10.5281/zenodo.4043664
+
+# Abstract
 
 Identification of novel protein binding sites expands «druggable genome» and opens new opportunities for drug discovery.
 
