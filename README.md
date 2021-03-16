@@ -1,6 +1,7 @@
 # BiteNet
 
-The default copyright laws apply. To request commercial or academical license please contact : p.popov@skoltech.ru.
+# LICENSE : BiteNet is currently under the Skoltech's license. To request it and access the repository please contact kto@skoltech.ru
+# The web-server version is here : https://sites.skoltech.ru/imolecule/tools/bitenet/
 
 If you use or refer to BiteNet please cite: 
 Igor Kozlovskii and Petr Popov, "Spatiotemporal identification of druggable binding sites using deep learning", Communications Biology, accepted.
