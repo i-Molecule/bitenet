@@ -1,7 +1,6 @@
-# BiteNet
+[![License: PolyForm-Noncommercial-1.0.0](https://img.shields.io/badge/License-PolyForm--Noncommercial--1.0.0-orange.svg)](https://polyformproject.org/licenses/noncommercial/1.0.0)
 
-# LICENSE : BiteNet is currently under the Skoltech's license. To request it and access the repository please contact kto@skoltech.ru
-# The web-server version is here : https://sites.skoltech.ru/imolecule/tools/bitenet/
+# BiteNet
 
 If you use or refer to BiteNet please cite: 
 Igor Kozlovskii and Petr Popov, "Spatiotemporal identification of druggable binding sites using deep learning", Communications Biology, accepted.
@@ -152,3 +151,13 @@ where *path* is path to prediction log file output from bitenet predict; *out* i
 ```bash
 bitenet-cluster -h
 ```
+
+
+
+---
+
+## 📄 License
+
+This project is available under the PolyForm Noncommercial license. 
+
+For commercial use, collaboration, or to request an alternative license, please contact [Petr Popov](mailto:popov.petrus@gmail.com).
